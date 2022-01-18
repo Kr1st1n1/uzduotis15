@@ -1,0 +1,47 @@
+.block-1 {
+  width: 15%;
+  height: 100vh;
+
+.container-links {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  max-width: 300px;
+
+  .tab-buttons {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+
+    .tablink {
+        text-align: center;
+        flex: 1;
+        color: white;
+        font-size: 1.5rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 24px 64px;
+        background-color: #072227;
+
+        &:hover {
+          background-color: #35858B;
+        }
+      }
+   }
+ }
+}
+
+
+.container-links .tab-buttons .tablink.active {
+  background-color: #35858B;
+  color: black;
+  border-right: 5px solid #072227;
+  text-shadow: 2px 2px 3px white;
+}
+
+.container-links .container-tabs {
+  background-color: white;
+}
